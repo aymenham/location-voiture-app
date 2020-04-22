@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hamidech Aymen"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:id="@+id/comment_client"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="22/03/2018"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/comment_date"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Excellente Voiture"
+        android:layout_marginTop="8dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/comment_description"
+
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="2dp"
+        android:background="#686363"
+        />
+
+</LinearLayout>

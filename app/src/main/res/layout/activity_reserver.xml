@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.locationvoiture.ReserverActivity"
+    android:background="@mipmap/reserver"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choisir votre période de location"
+        android:textColor="#FFF"
+        android:layout_marginTop="95dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="date de début "
+        android:textColorHint="#FFF"
+        android:id="@+id/date_debut"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="date de fin "
+        android:textColorHint="#FFF"
+        android:id="@+id/date_fin"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textColor="#FFF"
+        android:text="Reserver maintenant"
+        android:background="#39a33e"
+        android:id="@+id/reservefinal"
+        />
+
+
+
+</LinearLayout>

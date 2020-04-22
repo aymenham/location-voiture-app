@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="MenuClient.AvisFragment">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="10dp"
+        android:id="@+id/recyler_avis"
+        ></android.support.v7.widget.RecyclerView>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="30dp"
+       >
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="2"
+           android:hint="laisse un commentaire ici "
+           android:id="@+id/laisse_commentaire"
+           android:layout_gravity="center"
+           />
+
+       <Button
+           android:layout_width="25dp"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:layout_marginLeft="20dp"
+           android:background="@drawable/ic_send_black_24dp"
+           android:id="@+id/send_commentaite"
+           />
+   </LinearLayout>
+
+</LinearLayout>

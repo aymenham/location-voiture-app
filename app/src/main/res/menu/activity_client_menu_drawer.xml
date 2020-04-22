@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/consultervoiture"
+            android:icon="@drawable/voitures"
+            android:title="Consulter Voitures" />
+        <item
+            android:id="@+id/mesvoiture"
+            android:icon="@drawable/mesvoiture"
+            android:title=" Mes voitures "
+
+            />
+        <item
+            android:id="@+id/mesfavoris"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title=" Mes Favoris "
+
+            />
+        <item
+            android:id="@+id/comparaison"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Faire une comparaison " />
+    </group>
+
+    <item android:title="Contacter l'agence ">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/aboutus"
+                android:title="à propos de nous" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Déconnecter " />
+        </menu>
+    </item>
+
+</menu>
