@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T23:51:29.832Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="OYXiGxDYl0gxrismtJ5c" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-29T23:53:38.253Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="gbbHMUQtqxVTPNuzSrJp" version="20.0.4" type="github">
   <diagram id="VkCWTGL3jxu0TgyFxnpc" name="Page-1">
     <mxGraphModel dx="2200" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -108,6 +108,21 @@
         </mxCell>
         <mxCell id="KpWeoGVn4X3EuhsV4pBM-53" value="Example" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="270" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWeoGVn4X3EuhsV4pBM-55" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="50" y="880" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWeoGVn4X3EuhsV4pBM-56" value="" style="shape=image;html=1;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=1;aspect=fixed;image=img/clipart/Gear_128x128.png;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="25" y="990" width="110" height="129.04" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWeoGVn4X3EuhsV4pBM-57" value="API-Platform" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="10" y="1130" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWeoGVn4X3EuhsV4pBM-58" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1190" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KpWeoGVn4X3EuhsV4pBM-59" value="POSTGRES" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1300" width="110" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
